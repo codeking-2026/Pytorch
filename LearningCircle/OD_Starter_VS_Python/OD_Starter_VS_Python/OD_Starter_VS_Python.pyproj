@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C8C0A2E-5B8C-4E54-9B5D-6E4E9B2C9B01}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>src\train_yolo.py</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>OD_Starter_VS_Python</Name>
+    <RootNamespace>OD_Starter_VS_Python</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src\train_yolo.py" />
+    <Compile Include="src\train_torchvision.py" />
+    <Content Include="requirements.txt" />
+    <Content Include="README-Windows.md" />
+    <Content Include="data.yaml" />
+    <Content Include="run_yolo.bat" />
+    <Content Include="run_torchvision.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="data\" />
+    <Folder Include="data\images\train\" />
+    <Folder Include="data\images\val\" />
+    <Folder Include="data\labels\train\" />
+    <Folder Include="data\labels\val\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

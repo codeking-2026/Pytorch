@@ -1,0 +1,3 @@
+﻿  L2Regularization.cpp
+C:\..Joey\6_PyTorch\Pytorch\CH_3\L2Regularization\L2Regularization\L2Regularization.cpp(42,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  L2Regularization.vcxproj -> C:\..Joey\6_PyTorch\Pytorch\CH_3\L2Regularization\x64\Debug\L2Regularization.exe

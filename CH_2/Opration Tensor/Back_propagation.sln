@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Back_propagation", "Back_propagation\Back_propagation.pyproj", "{A538B86F-BC82-4BBA-9154-D6CCA8B909C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A538B86F-BC82-4BBA-9154-D6CCA8B909C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A538B86F-BC82-4BBA-9154-D6CCA8B909C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3D47F10-BC63-4A83-BBE5-6B114FC0B6E2}
+	EndGlobalSection
+EndGlobal

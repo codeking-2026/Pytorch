@@ -1,0 +1,5 @@
+# Synthetic object detection dataset (YOLO format)
+path: ./data
+train: images/train
+val: images/val
+names: ["box", "ball"]
